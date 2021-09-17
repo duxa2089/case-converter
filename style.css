@@ -1,0 +1,38 @@
+.title {
+    font-size: 34px;
+    margin: 0 43% 0;
+}
+
+#input-field {
+    width: 95%;
+    height: 400px;
+    margin: 0 2% 0;
+    font-size: 20px;
+}
+
+#upper-case {
+    margin-left: 2%;
+}
+
+.button-group {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: coral;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+}
+.button-group:hover {background-color: rgb(219, 103, 61)}
+
+.button-group:active {
+  background-color: rgb(219, 103, 61);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
